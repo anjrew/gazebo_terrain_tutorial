@@ -19,7 +19,7 @@
 
   <!-- Convert an xacro to URDF and put on parameter server -->
   <param name="robot_description"
-         command="$(find xacro)/xacro.py $(find husky_description)/urdf/husky.urdf.xacro" />
+         command="$(find xacro)/xacro $(find husky_description)/urdf/husky.urdf.xacro" />
 
   <!-- Spawn the robot from the URDF that was loaded into the robot_description
        parameter -->
